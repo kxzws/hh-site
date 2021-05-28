@@ -507,10 +507,6 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   font-family: Fira Sans, sans-serif;
   font-style: normal;
@@ -520,8 +516,17 @@ body {
   color: #111238;
 }
 
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
 .header {
-    background-color: #F2F3F6;
+  padding-bottom: 44px;
+  background-color: #f2f3f6;
 }
 
 .header__menu-item {
@@ -536,9 +541,6 @@ body {
   color: #111238;
 }
 
-.button {
-}
-
 .header__button-link {
   padding: 10px;
   margin-right: 40px;
@@ -550,4 +552,118 @@ body {
   color: #fff;
   background-color: #1a75e8;
   border-radius: 5px;
+}
+
+.header__hero-title {
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 53px;
+}
+
+.header__hero-subtitle {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.header__input-group {
+  background: #fff;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.header__input {
+  background: #fff;
+  border: none;
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.header__input:focus {
+  outline: 1px dotted #666;
+}
+
+.header__input::placeholder {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header__button-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.header__button-text {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  vertical-align: middle;
+}
+
+.header__tags-group {
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b2b2b2;
+}
+
+.header__tags-label {
+  margin-right: 15px;
+}
+
+.header__tag {
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b2b2b2;
+}
+
+.header__tag:last-child {
+  margin-right: 0;
+}
+
+.categories__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 40px;
+}
+
+.categories__card {
+  padding: 35px 0;
+  background-color: #f2f3f6;
+  border-radius: 10px;
+  color: #111238;
+  transition: 0.2s;
+}
+
+.categories__card:hover {
+  background-color: #1A75E8;
+  color: #FFF;
+} 
+
+.categories__card:hover .categories__card-icon {
+  fill: #FFF;
+}
+
+.categories__card-icon {
+  fill: #111238;
+  margin-bottom: 15px;
+}
+
+.categories__card-text {
+  font-size: 16px;
+  line-height: 19px;
 }
