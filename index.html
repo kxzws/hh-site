@@ -51,22 +51,24 @@
               Создайте резюме или отправьте отклик на вакансию в&nbsp;компании с
               мировым именем и работайте<br />по свободному графику
             </p>
-            <div class="header__input-group d-flex">
-              <input
-                type="text"
-                class="header__input"
-                placeholder="Начните поиск"
-              />
-              <button class="header__button-primary">
-                <img
-                  class="header__button-icon"
-                  src="img/search-icon.svg"
-                  alt="icon: search"
+            <form action="#" class="header__hero-form">
+              <div class="header__input-group d-flex">
+                <input
+                  type="text"
+                  class="header__input"
+                  placeholder="Начните поиск"
                 />
-                <span class="header__button-text">Искать вакансии</span>
-              </button>
-            </div>
-            <!-- /.header__input-group -->
+                <button class="header__button-primary">
+                  <img
+                    class="header__button-icon"
+                    src="img/search-icon.svg"
+                    alt="icon: search"
+                  />
+                  <span class="header__button-text">Искать вакансии</span>
+                </button>
+              </div>
+              <!-- /.header__input-group -->
+            </form>
             <div class="header__tags-group">
               <span class="header__tags-label">Например:</span>
               <a href="#" class="header__tag">Front-end</a>
@@ -89,12 +91,16 @@
       </div>
       <!-- /.container -->
     </header>
+
     <section class="categories">
       <div class="container pt-5">
         <h2 class="categories__title">Категории</h2>
         <div class="row mb-5">
           <div class="col">
-            <a href="#" class="categories__card d-flex flex-column align-items-center">
+            <a
+              href="#"
+              class="categories__card d-flex flex-column align-items-center"
+            >
               <svg class="categories__card-icon" height="24" width="24">
                 <use href="img/icons.svg#brush"></use>
               </svg>
@@ -104,7 +110,10 @@
           </div>
           <!-- /.col -->
           <div class="col">
-            <a href="#" class="categories__card d-flex flex-column align-items-center">
+            <a
+              href="#"
+              class="categories__card d-flex flex-column align-items-center"
+            >
               <svg class="categories__card-icon" height="24" width="26">
                 <use href="img/icons.svg#browser"></use>
               </svg>
@@ -114,7 +123,10 @@
           </div>
           <!-- /.col -->
           <div class="col">
-            <a href="#" class="categories__card d-flex flex-column align-items-center">
+            <a
+              href="#"
+              class="categories__card d-flex flex-column align-items-center"
+            >
               <svg class="categories__card-icon" height="24" width="24">
                 <use href="img/icons.svg#edit"></use>
               </svg>
@@ -124,7 +136,10 @@
           </div>
           <!-- /.col -->
           <div class="col">
-            <a href="#" class="categories__card d-flex flex-column align-items-center">
+            <a
+              href="#"
+              class="categories__card d-flex flex-column align-items-center"
+            >
               <svg class="categories__card-icon" height="24" width="23">
                 <use href="img/icons.svg#fingerprint"></use>
               </svg>
@@ -134,7 +149,10 @@
           </div>
           <!-- /.col -->
           <div class="col">
-            <a href="#" class="categories__card d-flex flex-column align-items-center">
+            <a
+              href="#"
+              class="categories__card d-flex flex-column align-items-center"
+            >
               <svg class="categories__card-icon" height="23" width="24">
                 <use href="img/icons.svg#camera"></use>
               </svg>
@@ -144,7 +162,10 @@
           </div>
           <!-- /.col -->
           <div class="col">
-            <a href="#" class="categories__card d-flex flex-column align-items-center">
+            <a
+              href="#"
+              class="categories__card d-flex flex-column align-items-center"
+            >
               <svg class="categories__card-icon" height="24" width="24">
                 <use href="img/icons.svg#school"></use>
               </svg>
@@ -158,5 +179,182 @@
       </div>
       <!-- /.container -->
     </section>
+
+    <section class="offers">
+      <div class="container pt-5">
+        <h2 class="offers__title">Свежие вакансии</h2>
+        <div class="offers__offer d-flex align-items-center">
+          <div class="offers__offer-img"></div>
+          <div class="offers__offer-title">
+            <h3 class="offers__offer-heading">Front-end разработчик</h3>
+            <span class="offers__offer-address">Технопарк, Казань</span>
+          </div>
+          <span class="offers__offer-salary">65 000 ₽</span>
+          <div class="header__tags-group">
+            <span class="header__tags-label">Требования:</span>
+            <a href="#" class="header__tag">React</a>
+            <a href="#" class="header__tag">Sass</a>
+            <a href="#" class="header__tag">Figma</a>
+          </div>
+          <!-- /.header__tags-group -->
+          <a href="#" class="offers__offer-more">Подробнее →</a>
+        </div>
+        <!-- /.offers__offer -->
+        <div class="offers__offer d-flex align-items-center">
+          <div class="offers__offer-img"></div>
+          <div class="offers__offer-title">
+            <h3 class="offers__offer-heading">Front-end разработчик</h3>
+            <span class="offers__offer-address">Технопарк, Казань</span>
+          </div>
+          <span class="offers__offer-salary">65 000 ₽</span>
+          <div class="header__tags-group">
+            <span class="header__tags-label">Требования:</span>
+            <a href="#" class="header__tag">React</a>
+            <a href="#" class="header__tag">Sass</a>
+            <a href="#" class="header__tag">Figma</a>
+          </div>
+          <!-- /.header__tags-group -->
+          <a href="#" class="offers__offer-more">Подробнее →</a>
+        </div>
+        <!-- /.offers__offer -->
+        <div class="offers__offer d-flex align-items-center">
+          <div class="offers__offer-img"></div>
+          <div class="offers__offer-title">
+            <h3 class="offers__offer-heading">Front-end разработчик</h3>
+            <span class="offers__offer-address">Технопарк, Казань</span>
+          </div>
+          <span class="offers__offer-salary">65 000 ₽</span>
+          <div class="header__tags-group">
+            <span class="header__tags-label">Требования:</span>
+            <a href="#" class="header__tag">React</a>
+            <a href="#" class="header__tag">Sass</a>
+            <a href="#" class="header__tag">Figma</a>
+          </div>
+          <!-- /.header__tags-group -->
+          <a href="#" class="offers__offer-more">Подробнее →</a>
+        </div>
+        <!-- /.offers__offer -->
+        <div class="offers__offer d-flex align-items-center">
+          <div class="offers__offer-img"></div>
+          <div class="offers__offer-title">
+            <h3 class="offers__offer-heading">Front-end разработчик</h3>
+            <span class="offers__offer-address">Технопарк, Казань</span>
+          </div>
+          <span class="offers__offer-salary">65 000 ₽</span>
+          <div class="header__tags-group">
+            <span class="header__tags-label">Требования:</span>
+            <a href="#" class="header__tag">React</a>
+            <a href="#" class="header__tag">Sass</a>
+            <a href="#" class="header__tag">Figma</a>
+          </div>
+          <!-- /.header__tags-group -->
+          <a href="#" class="offers__offer-more">Подробнее →</a>
+        </div>
+        <!-- /.offers__offer -->
+        <button class="header__button-primary">
+          <span class="header__button-text">Больше вакансий</span>
+        </button>
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section class="subscription">
+      <div class="container">
+        <form action="#" class="subscription__sub-form col-6 offset-3">
+          <h2 class="subscription__title">
+            Подпишитесь на рассылку<br />с новыми вакансиями
+          </h2>
+          <p class="subscription__subtitle">
+            Мы отправляем по одному письму в неделю<br />с подходящими вам
+            вакансиями
+          </p>
+          <div class="subscription__sub-group d-flex">
+            <input
+              type="email"
+              class="subscription__input"
+              placeholder="E-mail"
+            />
+            <button class="header__button-primary">
+              <img
+                class="subscription__button-icon"
+                src="img/mail.svg"
+                alt="icon: letter"
+              />
+              <span class="header__button-text">Подписаться</span>
+            </button>
+          </div>
+          <!-- /.subscription__sub-group -->
+        </form>
+        <!-- /.subscription__sub-form col-6 offset-3 -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <img
+              src="img/footer-logo.svg"
+              alt="logo: FindYourJob"
+              class="footer__logo"
+            />
+            <p class="footer__site-description">
+              Сайт с вакансиями для тех,<br />кто ищет удаленную работу
+            </p>
+            <span class="footer__copyright">© 2021</span>
+          </div>
+          <!-- /.col-3 -->
+          <div class="col-3">
+            <h3 class="footer__title">Свяжитесь с нами</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="tel:88002020300" class="footer__item-link"
+                  >8 800 20 20 300</a
+                >
+              </li>
+              <li class="footer__menu-item">
+                <a href="mailto:info@findyourjob.net" class="footer__item-link"
+                  >info@findyourjob.net</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /.col-3 -->
+          <div class="col-3">
+            <h3 class="footer__title">Информация</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__item-link">Обработка данных</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__item-link">Конфиденциальность</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__item-link">Публичная оферта</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.col-3 -->
+          <div class="col-3">
+            <h3 class="footer__title">Навигация по сайту</h3>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__item-link">Вакансии</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__item-link">Компании</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__item-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.col-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </footer>
   </body>
 </html>

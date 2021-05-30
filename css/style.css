@@ -568,6 +568,7 @@ button {
 }
 
 .header__input-group {
+  max-width: 460px;
   background: #fff;
   border: 1px solid rgba(209, 209, 209, 0.1);
   box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
@@ -650,12 +651,12 @@ button {
 }
 
 .categories__card:hover {
-  background-color: #1A75E8;
-  color: #FFF;
-} 
+  background-color: #1a75e8;
+  color: #fff;
+}
 
 .categories__card:hover .categories__card-icon {
-  fill: #FFF;
+  fill: #fff;
 }
 
 .categories__card-icon {
@@ -666,4 +667,164 @@ button {
 .categories__card-text {
   font-size: 16px;
   line-height: 19px;
+}
+
+.offers {
+  padding-bottom: 80px;
+}
+
+.offers__title {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.offers__offer {
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #c5c9d5;
+  border-radius: 10px;
+}
+
+.offers__offer-img {
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #f2f3f6;
+  border-radius: 50%;
+  background: #fff url("../img/avatar.png") no-repeat center / contain;
+}
+
+.offers__offer-title {
+  margin-right: 46px;
+}
+
+.offers__offer-heading {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.offers__offer-address {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.8;
+}
+
+.offers__offer-salary {
+  margin-right: 62px;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #1a75e8;
+  border-radius: 5px;
+}
+
+.offers__offer-more {
+  margin-left: auto;
+  margin-right: 25px;
+  color: #1a75e8;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.offers .header__button-primary {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.subscription {
+  padding: 90px 0;
+  background-color: #f2f3f6;
+}
+
+.subscription__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.subscription__subtitle {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.subscription__sub-group {
+  max-width: 460px;
+  background: #fff;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.subscription__input {
+  background: #fff;
+  border: none;
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.subscription__input:focus {
+  outline: 1px dotted #666;
+}
+
+.subscription__input::placeholder {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.subscription__button-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__site-description {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 140%;
+  color: #b2b2b2;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  line-height: 140%;
+  color: #b2b2b2;
+}
+
+.footer__title {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer__menu-item {
+  margin-bottom: 10px;
+}
+
+.footer__menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__item-link {
+  color: #111238;
 }
