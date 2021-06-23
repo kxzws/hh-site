@@ -5,3 +5,6 @@ findyourjob glo-academy intensive-course
 - HTML
 - CSS
 - Bootstrap v5
+
+## В процессе
+- адаптивность
